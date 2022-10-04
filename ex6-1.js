@@ -1,1 +1,1 @@
-function sayhello(){aleat('Hello,Function!');}
+function sayhello6-1(){aleat('Hello,Function!');}
