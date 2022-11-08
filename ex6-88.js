@@ -1,1 +1,1 @@
-function image688(){document.getElementById('image688').innerHTML='';}
+function imgchange1(){document.getElementById('imgchange1').innerHTML='./image/コマちゃん.png';}
