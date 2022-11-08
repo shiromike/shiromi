@@ -1,1 +1,1 @@
-function imgchange1(){document.getElementById('img1').innerHTML='"./image/ジョー君.png"';}
+function image688(){document.getElementById('image688').innerHTML='';}
