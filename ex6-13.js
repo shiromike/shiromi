@@ -11,4 +11,4 @@ else{
 //全て表示されたら、空文字に戻す
 document.timer13.moji13.value = "";}
 //setTimeout()を含む関数を呼び出す
-setTimeout{("hyoji13()",1000);}
+setTimeout("hyoji13()",1000);}
