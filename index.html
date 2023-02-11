@@ -37,9 +37,9 @@
  <input type="button" value="ここをクリック" onclick="saygoodbye();">
 
  <h1>練習問題6.5</h1>
- <input type="button" value="あいさつ"　onclick="sayhello66();">
- <input type="button" value="太郎" onclick="taro66();"> 
- <input type="button" value="花子" onclick="hanako66();">
+ <input type="button" value="あいさつ"　onclick="sayhello65();">
+ <input type="button" value="太郎" onclick="taro65();taro66();"> 
+ <input type="button" value="花子" onclick="hanako65();hanako66();">
 
  <h1>練習問題6.7 引数の練習</h1>
  <input type="button" value="あいさつ" onclick="sayhello67();">
@@ -74,15 +74,12 @@
  <h1>練習問題6.11 タイマーイベントの実行</h1>
  <form name="timer">
  <input type="button" value="スタート" onclick="startfnc()">
-   
  <br>
-   
- <input type="text" name="moji" size="30" value="">
- 
+ <input type="text" name="moji" size="30" value>
  </form>
-  
-<h1>練習問題6.12 タイマーイベントによる実行</h1>
-<form>
+ <h1>練習問題6.12 タイマーイベントによる実行</h1>
+ 
+ <form>
 <input type="button" value="Timer" onclick="setTimeout('mes()',3000)">
 </form>
   
@@ -96,24 +93,7 @@
 <input type= "text" name= "moji13" size= "30" value= "">
   </form>
  
- <script>
-  
-  function hyoji13() {　
-//表示する文字
-var str13 = "一文字ずつ表示します。"}
-//テキストボックスの文字数
-var cnt13 = document.timer13.moji13.value.length;
-//文字が全部表示されているか確認
-if ( cnt < 11 ){
-//現在より1文字多く切り出して表示
-document.timer13.moji13.value = str13.substr(0,cnt13+1);}
-else{
-//全て表示されたら、空文字に戻す
-document.timer13.moji13.value = "";}
-//setTimeout()を含む関数を呼び出す
-setTimeout("hyoji13()",1000);}
- 
-</script>
+
  
  <h1>練習問題7.1　テキスト入力の練習</h1>
  <input type="button" value="あいさつ" onclick="sayhello71();>
