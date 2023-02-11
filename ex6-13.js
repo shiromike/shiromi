@@ -1,6 +1,4 @@
-<script>
-  
-  function hyoji13() {　
+function hyoji13() {　
 //表示する文字
 var str13 = "一文字ずつ表示します。"}
 //テキストボックスの文字数
@@ -14,5 +12,3 @@ else{
 document.timer13.moji13.value = "";}
 //setTimeout()を含む関数を呼び出す
 setTimeout("hyoji13()",1000);}
- 
-</script>
