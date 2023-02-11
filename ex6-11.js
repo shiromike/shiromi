@@ -1,4 +1,4 @@
-function hyoji() {
+function hyouji() {
   //表示する文字　
   var str="一文字ずつ表示します。";
   
@@ -13,4 +13,4 @@ function hyoji() {
   //document.timer.moji.value = "";}}
  
 function startfnc(){//関数hyoji()を1000ミリ秒間隔で呼び出す
-setlnterval("hyoji()",1000);}
+setlnterval("hyouji()",1000);}
