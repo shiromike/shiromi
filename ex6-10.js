@@ -1,1 +1,1 @@
-function imgchange1(){document.getElementById('logo').src ='./image/blubon.gif;}
+function imgchange1(){document.getElementById('logo').src ='./image/bulbon.gif;}
